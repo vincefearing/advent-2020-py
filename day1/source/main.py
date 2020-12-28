@@ -11,5 +11,12 @@ def main():
             if temp == 2020:
                 print(i*j)
 
+    for i in expenseReport:
+        for j in expenseReport:
+            for k in expenseReport:
+                temp = i + j + k
+                if temp == 2020:
+                    print(i*j*k)
+
 if __name__ == "__main__":
     main()
